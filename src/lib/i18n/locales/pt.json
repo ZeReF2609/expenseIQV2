@@ -1,0 +1,224 @@
+{
+  "sidebar": {
+    "main": "Principal",
+    "settings": "Configurações",
+    "dashboard": "Painel",
+    "expenses": "Despesas",
+    "reports": "Relatórios",
+    "budgets": "Orçamentos",
+    "categories": "Categorias",
+    "notifications": "Notificações",
+    "profile": "Perfil e Configurações",
+    "logout": "Sair"
+  },
+  "header": {
+    "searchPlaceholder": "Pesquisar configurações, transações..."
+  },
+  "dashboard": {
+    "title": "Painel",
+    "description": "Resumo da sua atividade financeira este mês.",
+    "totalExpenseMonth": "Despesa Total do Mês",
+    "budgetProgress": "Progresso do Orçamento",
+    "spent": "Gasto",
+    "limit": "Limite",
+    "remainingBudgetMsg": "Você tem {{remainingBudget}} restantes para terminar o mês.",
+    "scanButton": "Escanear",
+    "manualButton": "Manual",
+    "reportButton": "Relatório",
+    "recentTransactions": "Transações Recentes",
+    "viewAll": "Ver Tudo"
+  },
+  "expenses": {
+    "title": "Despesas",
+    "addExpense": "Adicionar Despesa",
+    "export": "Exportar",
+    "allExpenses": "Todas as Suas Despesas",
+    "listDescription": "Uma lista detalhada de todas as suas transações.",
+    "table": {
+      "category": "Categoria",
+      "description": "Descrição",
+      "date": "Data",
+      "paymentMethod": "Método de Pagamento",
+      "amount": "Valor"
+    }
+  },
+  "reports": {
+    "title": "Relatórios",
+    "generateReport": "Gerar Relatório",
+    "expenseOverview": "Visão Geral das Despesas",
+    "overviewDescription": "Um resumo de suas despesas para o período selecionado.",
+    "pickDate": "Escolha uma data"
+  },
+  "budgets": {
+    "title": "Orçamentos",
+    "description": "Gerencie seus orçamentos mensais e por categoria.",
+    "addBudget": "Adicionar Orçamento",
+    "overall": "Geral",
+    "spent": "Gasto",
+    "of": "de",
+    "used": "usado"
+  },
+  "categories": {
+    "title": "Categorias",
+    "yourCategories": "Suas Categorias",
+    "manageCategories": "Gerencie suas categorias de despesas.",
+    "name": "Nome",
+    "icon": "Ícone",
+    "color": "Cor",
+    "actions": "Ações",
+    "addNewCategory": "Adicionar Nova Categoria",
+    "createNewCategory": "Crie uma nova categoria para suas despesas.",
+    "categoryName": "Nome da Categoria",
+    "categoryNamePlaceholder": "Ex: Compras",
+    "addCategory": "Adicionar Categoria",
+    "errorTitle": "Erro",
+    "errorDescription": "O nome da categoria é obrigatório.",
+    "successTitle": "Sucesso",
+    "successDescriptionAdd": "A categoria \"{{categoryName}}\" foi adicionada.",
+    "successDescriptionDelete": "A categoria foi excluída.",
+    "food": "Alimentação",
+    "transport": "Transporte",
+    "utilities": "Serviços",
+    "entertainment": "Entretenimento",
+    "health": "Saúde",
+    "other": "Outros"
+  },
+  "profile": {
+    "title": "Perfil e Configurações",
+    "description": "Gerencie suas informações pessoais e as preferências do sistema.",
+    "role": "Controlador Financeiro",
+    "roleLabel": "Função",
+    "adminRole": "Admin",
+    "memberSinceLabel": "Membro Desde",
+    "accountStatus": {
+      "title": "Status da Conta",
+      "verification": "Verificação",
+      "completed": "Concluída",
+      "plan": "Plano",
+      "enterprisePlan": "Empresarial"
+    },
+    "cancelButton": "Cancelar",
+    "saveButton": "Salvar Alterações"
+  },
+  "settings": {
+    "appearance": {
+      "title": "Aparência",
+      "darkMode": "Modo Escuro",
+      "darkModeDescription": "Ajuste o tema do aplicativo para reduzir o cansaço visual."
+    },
+    "language": {
+      "title": "Idioma",
+      "description": "Defina seu idioma preferido para a interface.",
+      "placeholder": "Selecione um idioma",
+      "en": "Inglês",
+      "es": "Espanhol",
+      "pt": "Português"
+    },
+    "financialCategories": {
+      "title": "Categorias Financeiras",
+      "description": "Gerencie as categorias visíveis em seu painel para um acompanhamento personalizado.",
+      "placeholder": "Nova categoria..."
+    },
+    "toast": {
+      "title": "Configurações salvas",
+      "description": "Suas novas configurações foram aplicadas."
+    }
+  },
+  "paymentMethods": {
+    "creditcard": "Cartão de Crédito",
+    "debitcard": "Cartão de Débito",
+    "cash": "Dinheiro",
+    "digitalwallet": "Carteira Digital"
+  },
+  "addExpense": {
+    "title": "Adicionar Despesa",
+    "description": "Insira os detalhes da sua despesa. Você também pode escanear um recibo.",
+    "scanReceiptButton": "Escanear Recibo/Fatura",
+    "scanningButton": "Escaneando",
+    "orSeparator": "OU",
+    "form": {
+      "description": {
+        "label": "Descrição",
+        "placeholder": "Ex: Almoço em um café"
+      },
+      "amount": {
+        "label": "Valor"
+      },
+      "tax": {
+        "label": "Imposto (IGV)"
+      },
+      "date": {
+        "label": "Data",
+        "placeholder": "Escolha uma data"
+      },
+      "category": {
+        "label": "Categoria",
+        "placeholder": "Selecione uma categoria"
+      },
+      "paymentMethod": {
+        "label": "Método de Pagamento",
+        "placeholder": "Selecione um método"
+      },
+      "ruc": {
+        "label": "RUC",
+        "placeholder": "RUC do recibo"
+      },
+      "tag": {
+        "label": "Etiqueta",
+        "personal": "Pessoal",
+        "reimbursable": "Reembolsável"
+      }
+    },
+    "submitButton": "Adicionar Despesa",
+    "scanningToast": {
+      "title": "Escaneando Recibo...",
+      "description": "Por favor, aguarde enquanto extraímos os detalhes."
+    },
+    "scanSuccessToast": {
+      "title": "Recibo Escaneado",
+      "description": "Os detalhes da despesa foram preenchidos."
+    },
+    "categoryPredictedToast": {
+      "title": "Categoria Prevista",
+      "description": "Definimos a categoria como {{categoryName}}."
+    },
+    "scanFailedToast": {
+      "title": "Falha no Escaneamento",
+      "description": "Não foi possível extrair os detalhes do recibo."
+    },
+    "expenseAddedToast": {
+      "title": "Despesa Adicionada",
+      "description": "Sua despesa foi registrada com sucesso."
+    }
+  },
+  "notifications": {
+    "title": "Notificações",
+    "description": "Veja e gerencie todas as notificações da sua conta.",
+    "unread": "{{count}} não lidas",
+    "viewAll": "Ver todas as notificações",
+    "markAllAsRead": "Marcar todas como lidas",
+    "markAsRead": "Marcar como lida",
+    "noNotifications": {
+      "title": "Nenhuma notificação ainda",
+      "description": "Você está em dia! Avisaremos quando houver algo novo."
+    },
+    "items": {
+      "budgetalert": {
+        "title": "Alerta de Orçamento",
+        "description": "Você excedeu seu orçamento mensal para \"Alimentação\" em {{amount}}."
+      },
+      "newexpenseadded": {
+        "title": "Nova Despesa Adicionada",
+        "description": "Uma nova despesa de $12.50 foi adicionada a \"Alimentação\"."
+      },
+      "reportready": {
+        "title": "Relatório Pronto",
+        "description": "Seu relatório mensal de Maio de 2024 está pronto para ser revisado."
+      },
+      "newlogin": {
+        "title": "Novo Login",
+        "description": "Um novo login em sua conta foi detectado a partir de um novo dispositivo."
+      }
+    }
+  }
+}

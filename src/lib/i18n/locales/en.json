@@ -1,0 +1,224 @@
+{
+  "sidebar": {
+    "main": "Main",
+    "settings": "Settings",
+    "dashboard": "Dashboard",
+    "expenses": "Expenses",
+    "reports": "Reports",
+    "budgets": "Budgets",
+    "categories": "Categories",
+    "notifications": "Notifications",
+    "profile": "Profile & Settings",
+    "logout": "Logout"
+  },
+  "header": {
+    "searchPlaceholder": "Search settings, transactions..."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "description": "Summary of your financial activity this month.",
+    "totalExpenseMonth": "Total Expense Month",
+    "budgetProgress": "Budget Progress",
+    "spent": "Spent",
+    "limit": "Limit",
+    "remainingBudgetMsg": "You have {{remainingBudget}} left to finish the month.",
+    "scanButton": "Scan",
+    "manualButton": "Manual",
+    "reportButton": "Report",
+    "recentTransactions": "Recent Transactions",
+    "viewAll": "View All"
+  },
+  "expenses": {
+    "title": "Expenses",
+    "addExpense": "Add Expense",
+    "export": "Export",
+    "allExpenses": "All Your Expenses",
+    "listDescription": "A detailed list of all your transactions.",
+    "table": {
+      "category": "Category",
+      "description": "Description",
+      "date": "Date",
+      "paymentMethod": "Payment Method",
+      "amount": "Amount"
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "generateReport": "Generate Report",
+    "expenseOverview": "Expense Overview",
+    "overviewDescription": "A summary of your expenses for the selected period.",
+    "pickDate": "Pick a date"
+  },
+  "budgets": {
+    "title": "Budgets",
+    "description": "Manage your monthly and category-specific budgets.",
+    "addBudget": "Add Budget",
+    "overall": "Overall",
+    "spent": "Spent",
+    "of": "of",
+    "used": "used"
+  },
+  "categories": {
+    "title": "Categories",
+    "yourCategories": "Your Categories",
+    "manageCategories": "Manage your expense categories.",
+    "name": "Name",
+    "icon": "Icon",
+    "color": "Color",
+    "actions": "Actions",
+    "addNewCategory": "Add New Category",
+    "createNewCategory": "Create a new category for your expenses.",
+    "categoryName": "Category Name",
+    "categoryNamePlaceholder": "e.g., Shopping",
+    "addCategory": "Add Category",
+    "errorTitle": "Error",
+    "errorDescription": "Category name is required.",
+    "successTitle": "Success",
+    "successDescriptionAdd": "Category \"{{categoryName}}\" has been added.",
+    "successDescriptionDelete": "Category has been deleted.",
+    "food": "Food",
+    "transport": "Transport",
+    "utilities": "Utilities",
+    "entertainment": "Entertainment",
+    "health": "Health",
+    "other": "Other"
+  },
+  "profile": {
+    "title": "Profile & Settings",
+    "description": "Manage your personal information and system preferences.",
+    "role": "Financial Controller",
+    "roleLabel": "Role",
+    "adminRole": "Admin",
+    "memberSinceLabel": "Member Since",
+    "accountStatus": {
+      "title": "Account Status",
+      "verification": "Verification",
+      "completed": "Completed",
+      "plan": "Plan",
+      "enterprisePlan": "Enterprise"
+    },
+    "cancelButton": "Cancel",
+    "saveButton": "Save Changes"
+  },
+  "settings": {
+    "appearance": {
+      "title": "Appearance",
+      "darkMode": "Dark Mode",
+      "darkModeDescription": "Adjust the app's theme to reduce eye strain."
+    },
+    "language": {
+      "title": "Language",
+      "description": "Set your preferred language for the interface.",
+      "placeholder": "Select a language",
+      "en": "English",
+      "es": "Spanish",
+      "pt": "Portuguese"
+    },
+    "financialCategories": {
+      "title": "Financial Categories",
+      "description": "Manage the categories visible on your dashboard for personalized tracking.",
+      "placeholder": "New category..."
+    },
+    "toast": {
+      "title": "Settings saved",
+      "description": "Your new settings have been applied."
+    }
+  },
+  "paymentMethods": {
+    "creditcard": "Credit Card",
+    "debitcard": "Debit Card",
+    "cash": "Cash",
+    "digitalwallet": "Digital Wallet"
+  },
+  "addExpense": {
+    "title": "Add Expense",
+    "description": "Enter the details of your expense. You can also scan a receipt.",
+    "scanReceiptButton": "Scan Receipt/Invoice",
+    "scanningButton": "Scanning",
+    "orSeparator": "OR",
+    "form": {
+      "description": {
+        "label": "Description",
+        "placeholder": "e.g., Lunch at a cafe"
+      },
+      "amount": {
+        "label": "Amount"
+      },
+      "tax": {
+        "label": "Tax (IGV)"
+      },
+      "date": {
+        "label": "Date",
+        "placeholder": "Pick a date"
+      },
+      "category": {
+        "label": "Category",
+        "placeholder": "Select a category"
+      },
+      "paymentMethod": {
+        "label": "Payment Method",
+        "placeholder": "Select a method"
+      },
+      "ruc": {
+        "label": "RUC",
+        "placeholder": "RUC from receipt"
+      },
+      "tag": {
+        "label": "Tag",
+        "personal": "Personal",
+        "reimbursable": "Reimbursable"
+      }
+    },
+    "submitButton": "Add Expense",
+    "scanningToast": {
+      "title": "Scanning Receipt...",
+      "description": "Please wait while we extract the details."
+    },
+    "scanSuccessToast": {
+      "title": "Receipt Scanned",
+      "description": "Expense details have been filled in."
+    },
+    "categoryPredictedToast": {
+      "title": "Category Predicted",
+      "description": "We've set the category to {{categoryName}}."
+    },
+    "scanFailedToast": {
+      "title": "Scan Failed",
+      "description": "Could not extract details from the receipt."
+    },
+    "expenseAddedToast": {
+      "title": "Expense Added",
+      "description": "Your expense has been successfully recorded."
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "description": "View and manage all your account notifications.",
+    "unread": "{{count}} unread",
+    "viewAll": "View all notifications",
+    "markAllAsRead": "Mark all as read",
+    "markAsRead": "Mark as read",
+    "noNotifications": {
+      "title": "No notifications yet",
+      "description": "You're all caught up! We'll let you know when there's something new."
+    },
+    "items": {
+      "budgetalert": {
+        "title": "Budget Alert",
+        "description": "You have exceeded your monthly budget for \"Food\" by {{amount}}."
+      },
+      "newexpenseadded": {
+        "title": "New Expense Added",
+        "description": "A new expense of $12.50 was added to \"Food\"."
+      },
+      "reportready": {
+        "title": "Report Ready",
+        "description": "Your monthly report for May 2024 is ready to be reviewed."
+      },
+      "newlogin": {
+        "title": "New Login",
+        "description": "A new login to your account was detected from a new device."
+      }
+    }
+  }
+}

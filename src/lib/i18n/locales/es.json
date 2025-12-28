@@ -1,0 +1,224 @@
+{
+  "sidebar": {
+    "main": "Principal",
+    "settings": "Ajustes",
+    "dashboard": "Tablero",
+    "expenses": "Gastos",
+    "reports": "Reportes",
+    "budgets": "Presupuestos",
+    "categories": "Categorías",
+    "notifications": "Notificaciones",
+    "profile": "Perfil y Configuración",
+    "logout": "Cerrar Sesión"
+  },
+  "header": {
+    "searchPlaceholder": "Buscar ajustes, transacciones..."
+  },
+  "dashboard": {
+    "title": "Tablero",
+    "description": "Resumen de tu actividad financiera de este mes.",
+    "totalExpenseMonth": "Gasto Total Mes",
+    "budgetProgress": "Progreso del Presupuesto",
+    "spent": "Gastado",
+    "limit": "Límite",
+    "remainingBudgetMsg": "Te quedan {{remainingBudget}} para terminar el mes.",
+    "scanButton": "Escanear",
+    "manualButton": "Manual",
+    "reportButton": "Reporte",
+    "recentTransactions": "Transacciones Recientes",
+    "viewAll": "Ver Todo"
+  },
+  "expenses": {
+    "title": "Gastos",
+    "addExpense": "Añadir Gasto",
+    "export": "Exportar",
+    "allExpenses": "Todos Tus Gastos",
+    "listDescription": "Una lista detallada de todas tus transacciones.",
+    "table": {
+      "category": "Categoría",
+      "description": "Descripción",
+      "date": "Fecha",
+      "paymentMethod": "Método de Pago",
+      "amount": "Monto"
+    }
+  },
+  "reports": {
+    "title": "Reportes",
+    "generateReport": "Generar Reporte",
+    "expenseOverview": "Resumen de Gastos",
+    "overviewDescription": "Un resumen de tus gastos para el período seleccionado.",
+    "pickDate": "Elige una fecha"
+  },
+  "budgets": {
+    "title": "Presupuestos",
+    "description": "Administra tus presupuestos mensuales y por categoría.",
+    "addBudget": "Añadir Presupuesto",
+    "overall": "General",
+    "spent": "Gastado",
+    "of": "de",
+    "used": "usado"
+  },
+  "categories": {
+    "title": "Categorías",
+    "yourCategories": "Tus Categorías",
+    "manageCategories": "Administra tus categorías de gastos.",
+    "name": "Nombre",
+    "icon": "Ícono",
+    "color": "Color",
+    "actions": "Acciones",
+    "addNewCategory": "Añadir Nueva Categoría",
+    "createNewCategory": "Crea una nueva categoría para tus gastos.",
+    "categoryName": "Nombre de la Categoría",
+    "categoryNamePlaceholder": "Ej: Compras",
+    "addCategory": "Añadir Categoría",
+    "errorTitle": "Error",
+    "errorDescription": "El nombre de la categoría es obligatorio.",
+    "successTitle": "Éxito",
+    "successDescriptionAdd": "La categoría \"{{categoryName}}\" ha sido añadida.",
+    "successDescriptionDelete": "La categoría ha sido eliminada.",
+    "food": "Comida",
+    "transport": "Transporte",
+    "utilities": "Servicios",
+    "entertainment": "Entretenimiento",
+    "health": "Salud",
+    "other": "Otros"
+  },
+  "profile": {
+    "title": "Perfil y Configuración",
+    "description": "Administra tu información personal y las preferencias del sistema.",
+    "role": "Controlador Financiero",
+    "roleLabel": "Rol",
+    "adminRole": "Admin",
+    "memberSinceLabel": "Miembro Desde",
+    "accountStatus": {
+      "title": "Estado de la Cuenta",
+      "verification": "Verificación",
+      "completed": "Completada",
+      "plan": "Plan",
+      "enterprisePlan": "Empresarial"
+    },
+    "cancelButton": "Cancelar",
+    "saveButton": "Guardar Cambios"
+  },
+  "settings": {
+    "appearance": {
+      "title": "Apariencia",
+      "darkMode": "Modo Oscuro",
+      "darkModeDescription": "Ajusta el tema de la aplicación para reducir la fatiga visual."
+    },
+    "language": {
+      "title": "Idioma",
+      "description": "Establece tu idioma preferido para la interfaz.",
+      "placeholder": "Selecciona un idioma",
+      "en": "Inglés",
+      "es": "Español",
+      "pt": "Portugués"
+    },
+    "financialCategories": {
+      "title": "Categorías Financieras",
+      "description": "Gestiona las categorías visibles en tu dashboard para un seguimiento personalizado.",
+      "placeholder": "Nueva categoría..."
+    },
+    "toast": {
+      "title": "Configuración guardada",
+      "description": "Tu nueva configuración ha sido aplicada."
+    }
+  },
+  "paymentMethods": {
+    "creditcard": "Tarjeta de Crédito",
+    "debitcard": "Tarjeta de Débito",
+    "cash": "Efectivo",
+    "digitalwallet": "Billetera Digital"
+  },
+  "addExpense": {
+    "title": "Añadir Gasto",
+    "description": "Introduce los detalles de tu gasto. También puedes escanear un recibo.",
+    "scanReceiptButton": "Escanear Recibo/Factura",
+    "scanningButton": "Escaneando",
+    "orSeparator": "O",
+    "form": {
+      "description": {
+        "label": "Descripción",
+        "placeholder": "Ej: Almuerzo en un café"
+      },
+      "amount": {
+        "label": "Monto"
+      },
+      "tax": {
+        "label": "Impuesto (IGV)"
+      },
+      "date": {
+        "label": "Fecha",
+        "placeholder": "Elige una fecha"
+      },
+      "category": {
+        "label": "Categoría",
+        "placeholder": "Selecciona una categoría"
+      },
+      "paymentMethod": {
+        "label": "Método de Pago",
+        "placeholder": "Selecciona un método"
+      },
+      "ruc": {
+        "label": "RUC",
+        "placeholder": "RUC del recibo"
+      },
+      "tag": {
+        "label": "Etiqueta",
+        "personal": "Personal",
+        "reimbursable": "Reembolsable"
+      }
+    },
+    "submitButton": "Añadir Gasto",
+    "scanningToast": {
+      "title": "Escaneando Recibo...",
+      "description": "Por favor espera mientras extraemos los detalles."
+    },
+    "scanSuccessToast": {
+      "title": "Recibo Escaneado",
+      "description": "Los detalles del gasto han sido rellenados."
+    },
+    "categoryPredictedToast": {
+      "title": "Categoría Predicha",
+      "description": "Hemos asignado la categoría a {{categoryName}}."
+    },
+    "scanFailedToast": {
+      "title": "Escaneo Fallido",
+      "description": "No se pudieron extraer los detalles del recibo."
+    },
+    "expenseAddedToast": {
+      "title": "Gasto Añadido",
+      "description": "Tu gasto ha sido registrado exitosamente."
+    }
+  },
+  "notifications": {
+    "title": "Notificaciones",
+    "description": "Ver y gestionar todas las notificaciones de tu cuenta.",
+    "unread": "{{count}} sin leer",
+    "viewAll": "Ver todas las notificaciones",
+    "markAllAsRead": "Marcar todas como leídas",
+    "markAsRead": "Marcar como leída",
+    "noNotifications": {
+      "title": "No hay notificaciones aún",
+      "description": "Estás al día. Te avisaremos cuando haya algo nuevo."
+    },
+    "items": {
+      "budgetalert": {
+        "title": "Alerta de Presupuesto",
+        "description": "Has excedido tu presupuesto mensual para \"Comida\" por {{amount}}."
+      },
+      "newexpenseadded": {
+        "title": "Nuevo Gasto Añadido",
+        "description": "Se ha añadido un nuevo gasto de $12.50 a \"Comida\"."
+      },
+      "reportready": {
+        "title": "Reporte Listo",
+        "description": "Tu reporte mensual de Mayo 2024 está listo para ser revisado."
+      },
+      "newlogin": {
+        "title": "Nuevo Inicio de Sesión",
+        "description": "Se ha detectado un nuevo inicio de sesión en tu cuenta desde un nuevo dispositivo."
+      }
+    }
+  }
+}
