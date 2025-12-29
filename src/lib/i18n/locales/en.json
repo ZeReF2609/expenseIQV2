@@ -26,7 +26,11 @@
     "manualButton": "Manual",
     "reportButton": "Report",
     "recentTransactions": "Recent Transactions",
-    "viewAll": "View All"
+    "viewAll": "View All",
+    "expenseBreakdown": {
+      "title": "Expense Breakdown",
+      "topCategory": "Top Category"
+    }
   },
   "expenses": {
     "title": "Expenses",

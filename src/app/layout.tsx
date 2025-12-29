@@ -19,13 +19,13 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en" suppressHydrationWarning>
+}>) { 
+  return (  
+    <html lang="en" suppressHydrationWarning> 
       <body className={`${inter.variable} font-sans antialiased bg-background text-foreground min-h-screen`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="dark"   
           enableSystem
           disableTransitionOnChange
         >

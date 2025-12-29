@@ -26,7 +26,11 @@
     "manualButton": "Manual",
     "reportButton": "Reporte",
     "recentTransactions": "Transacciones Recientes",
-    "viewAll": "Ver Todo"
+    "viewAll": "Ver Todo",
+    "expenseBreakdown": {
+      "title": "Desglose de Gastos",
+      "topCategory": "Categoría Principal"
+    }
   },
   "expenses": {
     "title": "Gastos",
